@@ -11,6 +11,10 @@
 		E48E9EEA2BB1D5A800E1E0C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48E9EE92BB1D5A800E1E0C1 /* ContentView.swift */; };
 		E48E9EEC2BB1D5AB00E1E0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48E9EEB2BB1D5AB00E1E0C1 /* Assets.xcassets */; };
 		E48E9EEF2BB1D5AB00E1E0C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48E9EEE2BB1D5AB00E1E0C1 /* Preview Assets.xcassets */; };
+		E4A17F302BB6F26C00ACF07C /* ParksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A17F2F2BB6F26C00ACF07C /* ParksResponse.swift */; };
+		E4A17F322BB740AF00ACF07C /* ParkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A17F312BB740AF00ACF07C /* ParkRow.swift */; };
+		E4A17F342BB744DD00ACF07C /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A17F332BB744DC00ACF07C /* ParkDetailView.swift */; };
+		E4A17F362BB752DB00ACF07C /* park_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = E4A17F352BB752DB00ACF07C /* park_mock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E48E9EE92BB1D5A800E1E0C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E48E9EEB2BB1D5AB00E1E0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48E9EEE2BB1D5AB00E1E0C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4A17F2F2BB6F26C00ACF07C /* ParksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksResponse.swift; sourceTree = "<group>"; };
+		E4A17F312BB740AF00ACF07C /* ParkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRow.swift; sourceTree = "<group>"; };
+		E4A17F332BB744DC00ACF07C /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
+		E4A17F352BB752DB00ACF07C /* park_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = park_mock.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				E48E9EE72BB1D5A800E1E0C1 /* ParksApp.swift */,
 				E48E9EE92BB1D5A800E1E0C1 /* ContentView.swift */,
+				E4A17F332BB744DC00ACF07C /* ParkDetailView.swift */,
+				E4A17F312BB740AF00ACF07C /* ParkRow.swift */,
+				E4A17F2F2BB6F26C00ACF07C /* ParksResponse.swift */,
+				E4A17F352BB752DB00ACF07C /* park_mock.json */,
 				E48E9EEB2BB1D5AB00E1E0C1 /* Assets.xcassets */,
 				E48E9EED2BB1D5AB00E1E0C1 /* Preview Content */,
 			);
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48E9EEF2BB1D5AB00E1E0C1 /* Preview Assets.xcassets in Resources */,
+				E4A17F362BB752DB00ACF07C /* park_mock.json in Resources */,
 				E48E9EEC2BB1D5AB00E1E0C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48E9EEA2BB1D5A800E1E0C1 /* ContentView.swift in Sources */,
+				E4A17F342BB744DD00ACF07C /* ParkDetailView.swift in Sources */,
+				E4A17F302BB6F26C00ACF07C /* ParksResponse.swift in Sources */,
+				E4A17F322BB740AF00ACF07C /* ParkRow.swift in Sources */,
 				E48E9EE82BB1D5A800E1E0C1 /* ParksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
