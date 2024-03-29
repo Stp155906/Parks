@@ -53,6 +53,7 @@ struct ParkDetailView: View {
                     }.scrollTargetLayout()
                 }.scrollTargetBehavior(.viewAligned)
             }                    .scrollIndicators(.hidden)
+                //.navigationBarTitleDisplayMode(.inline)
             
             if let latitude = Double(park.latitude), let longitude = Double(park.longitude) {
                 let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)

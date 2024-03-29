@@ -27,6 +27,10 @@ struct ContentView: View {
                         }
                     }
                 }
+            .navigationDestination(for: Park.self) { park in // <-- Add a navigationDestination that reacts to any Park type sent from a Navigation Link
+                    ParkDetailView(park: park) // <-- Create a ParkDetailView for the destination, passing in the park
+                }
+            .navigationTitle("National Parks") // <-- Add a navigation bar title
             
                 
             .padding()

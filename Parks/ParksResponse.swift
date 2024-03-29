@@ -10,14 +10,9 @@ import SwiftUI
 
 struct ParksResponse: Codable{
     let data: [Park]
-    
 }
 
-struct Park: Codable, Identifiable, Hashable, Equatable {
-//    static func == (lhs: Park, rhs: Park) -> Bool {
-//        <#code#>
-//    }
-    
+struct Park: Codable, Identifiable, Hashable {
     
     let id : String
     let fullName: String
@@ -32,7 +27,7 @@ struct Park: Codable, Identifiable, Hashable, Equatable {
             hasher.combine(id)
         }
 }
-struct ParkImage: Codable, Identifiable{
+struct ParkImage: Codable, Identifiable, Equatable{
     let title: String
     let caption : String
     let url: String
